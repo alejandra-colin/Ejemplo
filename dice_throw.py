@@ -1,5 +1,7 @@
 """
 
+
+
 Gilberto Echeverria
 Python 3.4.2
 
@@ -14,7 +16,7 @@ while ans == 'y' or ans == 'Y':
     dice1 = random.randint(1, 6)
     dice2 = random.randint(1, 6)
 
-    print("You got ", dice1, "and", dice2)
+    print("tus numeros son los siguientes: ", dice1, "and", dice2)
     if dice1 == dice2:
         print("You got a pair of ", dice1)
 
