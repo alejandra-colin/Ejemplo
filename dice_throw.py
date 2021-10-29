@@ -1,4 +1,5 @@
 """
+
 Gilberto Echeverria
 Python 3.4.2
 
@@ -17,7 +18,7 @@ while ans == 'y' or ans == 'Y':
     if dice1 == dice2:
         print("You got a pair of ", dice1)
 
-    ans = input("Another number? (yes: y / no: n) ")
+    ans = input("quieres otro numero? (yes: y / no: n) ")
 
 """
     # Validation that the user is entering correct values
